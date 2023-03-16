@@ -12,7 +12,7 @@ defineOptions({
   name: "zzh-icon",
 });
 
-const bem = createNameSpace("icon"); 
+const bem = createNameSpace("icon");
 const props = defineProps(iconProps);
 // 计算属性来计算一个样式来处理
 const style = computed(() => {

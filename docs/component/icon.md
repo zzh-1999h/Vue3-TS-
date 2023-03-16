@@ -12,6 +12,7 @@ pnpm install @vicons/ionicons5
 
 <script setup lang="ts">
 import {CashOutline} from '@vicons/ionicons5';
+import {CashOutline} from '@vicons/ionicons5';
 </script>
 <zzh-icon color="red" size="40">
   <CashOutline/>

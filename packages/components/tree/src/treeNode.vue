@@ -11,7 +11,7 @@
           <Loading v-else></Loading>
         </zzh-icon>
       </span>
-      <span @click="handleSelected" :class="bem.e('label')">{{ props.node?.label }}</span>
+      <span :class="bem.e('label')" @click="handleSelected">{{ props.node?.label }}</span>
     </div>
   </div>
 </template>
